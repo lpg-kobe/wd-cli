@@ -15,6 +15,11 @@
     "cli",
     "react"
   ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "author": "mapbar_front",
   "license": "MIT",
   "bugs": {
@@ -23,6 +28,7 @@
   "homepage": "https://github.com/mapbar-front/react-wd-cli#readme",
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1"
+    "@commitlint/config-conventional": "^9.0.1",
+    "husky": "^4.2.5"
   }
 }
