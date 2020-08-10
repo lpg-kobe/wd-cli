@@ -1,7 +1,7 @@
 {
   "name": "react-wd-cli",
   "version": "1.0.0",
-  "description": "一个企业级的react脚手架项目",
+  "description": "一个企业级的脚手架项目",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,9 @@
   },
   "author": "mapbar_front",
   "license": "MIT",
+  "bin": {
+    "wd": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/mapbar-front/react-wd-cli/issues"
   },
@@ -29,6 +32,21 @@
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.0.0"
   }
 }
