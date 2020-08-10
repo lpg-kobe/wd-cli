@@ -1,5 +1,5 @@
 {
-  "name": "wd-cli",
+  "name": "wd-tools-cli",
   "version": "1.0.0",
   "description": "一个企业级的脚手架项目",
   "main": "index.js",
@@ -13,7 +13,8 @@
   "keywords": [
     "脚手架",
     "cli",
-    "react"
+    "react",
+    "vue"
   ],
   "husky": {
     "hooks": {
