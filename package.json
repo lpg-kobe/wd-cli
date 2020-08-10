@@ -1,5 +1,5 @@
 {
-  "name": "react-wd-cli",
+  "name": "wd-cli",
   "version": "1.0.0",
   "description": "一个企业级的脚手架项目",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapbar-front/react-wd-cli.git"
+    "url": "git+https://github.com/mapbar-front/wd-cli.git"
   },
   "keywords": [
     "脚手架",
@@ -26,9 +26,9 @@
     "wd": "index.js"
   },
   "bugs": {
-    "url": "https://github.com/mapbar-front/react-wd-cli/issues"
+    "url": "https://github.com/mapbar-front/wd-cli/issues"
   },
-  "homepage": "https://github.com/mapbar-front/react-wd-cli#readme",
+  "homepage": "https://github.com/mapbar-front/wd-cli#readme",
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
